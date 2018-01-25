@@ -6,8 +6,25 @@ body{
     background: linear-gradient(to right, #004b62 0%,#006c80 27%,#006c80 70%,#004b62 100%);
 }
 
+nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
 article{
 	display: flex;
 	margin: 0 auto;
-	padding: 20%;
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
+}
+h3{
+	display: flex;
+	margin: 1%;
+}
+p{
+	padding: 10%;
+	padding-top: 0%;
+	padding-bottom: 0%;
 }
