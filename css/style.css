@@ -1,12 +1,11 @@
-
-header {
-
-}
+@charset "UTF-8";
+/*============= style généraux============*/
 
 body{
-
+	font-family: Roboto;
+    background: linear-gradient(to right, #004b62 0%,#006c80 27%,#006c80 70%,#004b62 100%);
 }
 
 article{
-
+	
 }
