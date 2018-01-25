@@ -6,10 +6,45 @@ body{
     background: linear-gradient(to right, #004b62 0%,#006c80 27%,#006c80 70%,#004b62 100%);
 }
 
-nav{
+/*nav{
 	display: flex;
+	margin: 0 auto;
 	justify-content: space-around;
 	align-items: center;
+
+}*/
+
+#navPrincipale {
+	background-color: #142C39;
+	padding:0;
+    margin-bottom: 50px;
+
+}
+#navPrincipale ul {
+	display: flex; 
+	flex-flow:row;
+	align-items: center;
+    height: 50px;
+
+
+}
+
+#navPrincipale li {
+    flex : 1 1 0;
+    text-align: center;
+    color: #DAD9DB;
+}
+
+
+#navPrincipale ul li a{
+    font-size: 180%;
+	text-decoration: none;
+	color: white;
+
+}
+
+#navPrincipale a:hover{
+    border-bottom: 4px #369 solid;
 }
 
 article{
