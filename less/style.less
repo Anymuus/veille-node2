@@ -1,15 +1,16 @@
 @couleurBackgroundElement:#142C39;
-
+@couleurTexte:#DAD9DB;
 
 
 body {
+	margin: 0 auto;
 	font-family: Roboto;
 	background: linear-gradient(to right, #004b62 0%,#006c80 27%,#006c80 70%,#004b62 100%);
 }
 h1{
 	padding: 5%;
 	background-color: @couleurBackgroundElement;
-	color:#DAD9DB;
+	color:@couleurTexte;
 	text-align:center;
 
 
@@ -37,7 +38,7 @@ h1{
 #navPrincipale li {
     flex : 1 1 0;
     text-align: center;
-    color: #DAD9DB;
+    color: @couleurTexte;
     list-style-type:none;
 }
 
@@ -63,7 +64,7 @@ h3{
 	margin: 5%;
 	padding: 2%;
 	background-color: @couleurBackgroundElement;
-	color: #DAD9DB;
+	color: @couleurTexte;
 	text-aling:center;
 }
 
@@ -71,7 +72,7 @@ p{
 	padding:5%;
 	text-align: center;
 	background-color: @couleurBackgroundElement;
-	color: #DAD9DB;
+	color: @couleurTexte;
 }
 
 #photo {
@@ -90,7 +91,7 @@ p{
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	/*background-color: rgba(34, 57, 69, 0.6);*/
+	background-color: rgba(34, 57, 69, 0.6);
 	padding:  20px;
 	font-size: 1.5em;
 	height: auto;
@@ -100,9 +101,10 @@ p{
 
 
 footer{
-	margin: auto;
+	margin: 0 auto;
 	padding: 20px;
+	
 	text-align: center;
 	background-color: @couleurBackgroundElement;
-	color: #DAD9DB;
+	color: @couleurTexte;
 }
